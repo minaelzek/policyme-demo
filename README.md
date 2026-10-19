@@ -1,6 +1,6 @@
 # Intake Extractor + Eval
 
-**Live demo:** LIVE_URL  ·  **Repo:** REPO_URL
+**Live demo:** https://minaelzek.github.io/policyme-demo/  ·  **Repo:** https://github.com/minaelzek/policyme-demo
 
 > Independent demo by Mina Elzek — not affiliated with PolicyMe. Every applicant, document and number in this repo is fictional.
 
@@ -60,7 +60,7 @@ scripts/score.py        same metrics in Python
 
 ## Deploy
 
-Push to `main` on `github.com/minaelzik/policyme-demo`, then set **Settings → Pages → Source: GitHub Actions**. `.github/workflows/deploy.yml` tests, builds and publishes to `https://minaelzik.github.io/policyme-demo/`. The Vite `base` is already `/policyme-demo/`.
+Push to `main` on `github.com/minaelzek/policyme-demo`, then set **Settings → Pages → Source: GitHub Actions**. `.github/workflows/deploy.yml` tests, builds and publishes to `https://minaelzek.github.io/policyme-demo/`. The Vite `base` is already `/policyme-demo/`.
 
 ## Notes
 
