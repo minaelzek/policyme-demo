@@ -1,0 +1,182 @@
+[
+  {
+    "id": "form-term-life",
+    "title": "Term life application (form)",
+    "kind": "form",
+    "text": "[FAKE SAMPLE — synthetic data, not a real person]\nTERM LIFE APPLICATION — PART A\nFull name: Priya Ramanathan\nDate of birth: 1991-03-14\nDate signed: 2026-09-02\nProvince: ON\nCoverage requested: $750,000\nTerm: 20 years\nTobacco/nicotine use in last 12 months: No\nMedical history:\n  Asthma: Yes (mild, inhaler as needed)\n  Diabetes: No\n  High blood pressure: No",
+    "labels": {
+      "fullName": "Priya Ramanathan",
+      "age": 35,
+      "coverageAmount": 750000,
+      "smoker": false,
+      "conditions": [
+        "asthma"
+      ]
+    }
+  },
+  {
+    "id": "broker-call-note",
+    "title": "Broker call note (narrative)",
+    "kind": "narrative",
+    "text": "[FAKE SAMPLE — synthetic data, not a real person]\nBroker call note — 2026-08-21\nSpoke with applicant Marcus Delacroix-Byrne, a 47-year-old contractor from Hamilton. He wants $1.2M of term life to cover the mortgage. Smokes about half a pack a day. Takes medication for high blood pressure. No history of cancer. Father had heart disease (family history only).",
+    "labels": {
+      "fullName": "Marcus Delacroix-Byrne",
+      "age": 47,
+      "coverageAmount": 1200000,
+      "smoker": true,
+      "conditions": [
+        "hypertension"
+      ]
+    }
+  },
+  {
+    "id": "ci-questionnaire",
+    "title": "Critical illness medical questionnaire",
+    "kind": "questionnaire",
+    "text": "[FAKE SAMPLE — synthetic data, not a real person]\nMEDICAL QUESTIONNAIRE (CRITICAL ILLNESS)\nName of applicant: Sofia Kowalczyk\nAge: 29\nBenefit amount: $100,000\nQ1. Have you used tobacco, vapes, or nicotine products in the past 12 months? Y\nQ2. Have you ever been diagnosed with anxiety or depression? Y — generalized anxiety, managed with therapy\nQ3. Have you ever been diagnosed with cancer? N\nQ4. Sleep apnea? N",
+    "labels": {
+      "fullName": "Sofia Kowalczyk",
+      "age": 29,
+      "coverageAmount": 100000,
+      "smoker": true,
+      "conditions": [
+        "anxiety/depression"
+      ]
+    }
+  },
+  {
+    "id": "client-email",
+    "title": "Client email (quit smoking recently)",
+    "kind": "email",
+    "text": "[FAKE SAMPLE — synthetic data, not a real person]\nFrom: devon.okafor@example.com\nSubject: quote follow-up\nHi! Following up on my quote. I'm Devon Okafor, 38, looking at around $500K coverage for 25 years. I quit smoking about 6 months ago. I was diagnosed with type 2 diabetes in 2022, controlled with metformin. No other conditions.",
+    "labels": {
+      "fullName": "Devon Okafor",
+      "age": 38,
+      "coverageAmount": 500000,
+      "smoker": true,
+      "conditions": [
+        "type 2 diabetes"
+      ]
+    }
+  },
+  {
+    "id": "form-family-history",
+    "title": "Life application with family history",
+    "kind": "form",
+    "text": "[FAKE SAMPLE — synthetic data, not a real person]\nLIFE APPLICATION\nApplicant name: Hannah Lefebvre\nAge: 52\nFace amount: $250,000\nSmoker: N\nConditions disclosed: high cholesterol; sleep apnea (uses CPAP)\nFamily history: mother — breast cancer",
+    "labels": {
+      "fullName": "Hannah Lefebvre",
+      "age": 52,
+      "coverageAmount": 250000,
+      "smoker": false,
+      "conditions": [
+        "high cholesterol",
+        "sleep apnea"
+      ]
+    }
+  },
+  {
+    "id": "uw-summary-denials",
+    "title": "Underwriting summary (denials)",
+    "kind": "narrative",
+    "text": "[FAKE SAMPLE — synthetic data, not a real person]\nUnderwriting summary: Insured, Tomás Herrera, aged 33, applying for $2M term life (30 yr). Non-smoker. Denies hypertension, diabetes, or heart disease. Healthy, runs marathons.",
+    "labels": {
+      "fullName": "Tomás Herrera",
+      "age": 33,
+      "coverageAmount": 2000000,
+      "smoker": false,
+      "conditions": []
+    }
+  },
+  {
+    "id": "form-dob-bundle",
+    "title": "Bundle application (DOB only)",
+    "kind": "form",
+    "text": "[FAKE SAMPLE — synthetic data, not a real person]\nAPPLICATION — HEALTH & LIFE BUNDLE\nName: Wei Chen-Abara\nDOB: 1984-11-30\nApplication date: 2026-10-01\nCoverage: 1.5 million\nNicotine use: none\nHistory: hypertension (diagnosed 2019), type II diabetes",
+    "labels": {
+      "fullName": "Wei Chen-Abara",
+      "age": 41,
+      "coverageAmount": 1500000,
+      "smoker": false,
+      "conditions": [
+        "hypertension",
+        "type 2 diabetes"
+      ]
+    }
+  },
+  {
+    "id": "chat-transcript",
+    "title": "Chat transcript (hard case)",
+    "kind": "narrative",
+    "text": "[FAKE SAMPLE — synthetic data, not a real person]\nChat transcript\nAgent: Can I get your full legal name?\nClient: Jordan Mbeki-Larsen\nAgent: And your age?\nClient: 26\nAgent: How much coverage are you looking for?\nClient: maybe half a million?\nAgent: Any tobacco or vaping?\nClient: I vape on weekends\nAgent: Any medical conditions?\nClient: just asthma since childhood, and I had depression a few years back but I'm fine now",
+    "labels": {
+      "fullName": "Jordan Mbeki-Larsen",
+      "age": 26,
+      "coverageAmount": 500000,
+      "smoker": true,
+      "conditions": [
+        "anxiety/depression",
+        "asthma"
+      ]
+    }
+  },
+  {
+    "id": "paramed-notes",
+    "title": "Paramedical exam notes",
+    "kind": "questionnaire",
+    "text": "[FAKE SAMPLE — synthetic data, not a real person]\nParamedical exam notes\nExaminee: Aisha Siddiqui    Age 44\nRequested benefit: $400,000 CAD\nTobacco: never\nBP 128/82 — no hypertension diagnosis. Reports anxiety, well controlled. Not diabetic.",
+    "labels": {
+      "fullName": "Aisha Siddiqui",
+      "age": 44,
+      "coverageAmount": 400000,
+      "smoker": false,
+      "conditions": [
+        "anxiety/depression"
+      ]
+    }
+  },
+  {
+    "id": "broker-former-smoker",
+    "title": "Broker note (former smoker)",
+    "kind": "narrative",
+    "text": "[FAKE SAMPLE — synthetic data, not a real person]\nBroker note 2026-07-15\nClient Benjamin Oyelaran, 61, wants to top up his group coverage with $300,000 of term life. Former smoker — quit 3 years ago. Had a heart attack in 2020, now stable. Treated for melanoma in 2015, in remission.",
+    "labels": {
+      "fullName": "Benjamin Oyelaran",
+      "age": 61,
+      "coverageAmount": 300000,
+      "smoker": false,
+      "conditions": [
+        "cancer",
+        "heart disease"
+      ]
+    }
+  },
+  {
+    "id": "form-smoker-none",
+    "title": "Term life application (smoker, no history)",
+    "kind": "form",
+    "text": "[FAKE SAMPLE — synthetic data, not a real person]\nTERM LIFE APPLICATION — PART A\nFull name: Olivia Tremblay-Nguyen\nAge: 31\nCoverage requested: $1,000,000\nSmoker: Yes\nMedical history: None declared",
+    "labels": {
+      "fullName": "Olivia Tremblay-Nguyen",
+      "age": 31,
+      "coverageAmount": 1000000,
+      "smoker": true,
+      "conditions": []
+    }
+  },
+  {
+    "id": "advisor-needs-analysis",
+    "title": "Advisor needs analysis (hard case)",
+    "kind": "email",
+    "text": "[FAKE SAMPLE — synthetic data, not a real person]\nAdvisor email\nRe: Gabriel Fontaine — needs analysis\nGabriel (age 40) earns $95,000/yr and has a $420,000 mortgage. Recommended coverage: $850,000 over 20 years. Non-smoker. Has mild sleep apnea; otherwise healthy.",
+    "labels": {
+      "fullName": "Gabriel Fontaine",
+      "age": 40,
+      "coverageAmount": 850000,
+      "smoker": false,
+      "conditions": [
+        "sleep apnea"
+      ]
+    }
+  }
+]
