@@ -1,0 +1,31 @@
+/*
+ * Design tokens matched to policyme.com's public stylesheet
+ * (Webflow shared CSS, "--primitives--*" variables, pulled 2026-10-19).
+ * Fonts: their paragraph font is Satoshi (free via Fontshare); their heading
+ * font ("fields") is an Adobe Fonts licence, so a serif fallback is used here.
+ */
+@theme {
+  --color-army: #455326;        /* primary button background */
+  --color-moss: #566830;        /* primary button hover */
+  --color-earthy: #5c6f33;
+  --color-meadow: #9aa483;      /* disabled */
+  --color-oat: #dfe5cf;         /* tag background */
+  --color-lace: #f1f3eb;
+  --color-snow: #fbf9f6;        /* page background */
+  --color-cloud: #fafaf8;
+  --color-linen: #f4efe7;
+  --color-stone: #d1d2cd;       /* card border */
+  --color-pebble: #74796a;
+  --color-sage: #656a59;        /* secondary text */
+  --color-coal: #30332a;        /* body text */
+  --color-rust: #a84300;        /* accent */
+  --color-cocoa: #803503;
+  --color-mango: #ffb850;
+  --color-bisque: #ffe8c4;
+  --color-signal: #db2200;      /* error */
+
+  --font-sans: "Satoshi", "Satoshi Variable", Arial, sans-serif;
+  --font-display: "Iowan Old Style", "Palatino Linotype", Georgia, serif;
+
+  --radius-card: 1rem;
+}

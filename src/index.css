@@ -1,0 +1,7 @@
+@import "tailwindcss";
+@import "./styles/tokens.css";
+
+html { background: var(--color-snow); color: var(--color-coal); }
+body { font-family: var(--font-sans); -webkit-font-smoothing: antialiased; }
+mark.ev { background: var(--color-bisque); color: inherit; border-radius: 3px; padding: 0 2px; box-shadow: inset 0 -2px 0 var(--color-mango); }
+mark.ev-neg { background: var(--color-lace); color: var(--color-sage); border-radius: 3px; padding: 0 2px; text-decoration: line-through; text-decoration-color: var(--color-meadow); }
